@@ -4,16 +4,19 @@
             <img src="{{ '/style/image/logo.png' | prepend: site.baseurl }}" alt="{{ site.name }}" />
             <span>{{ site.name }}</span>
         </a>
-	    <div class=".search-box"></div>
         <div class="navbar-menu">
             <a href="{{ '/archives' | prepend: site.baseurl }}">Archives</a>
             <a href="{{ '/about' | prepend: site.baseurl }}">About</a>
-        </div>		
+        </div>
         <div class="navbar-mobile-menu" onclick="">
             <span class="icon-menu cross"><span class="middle"></span></span>
-            <ul>                <li><a href="{{ '/archives' | prepend: site.baseurl }}">Archives</a></li>
+            <ul>
+                <li><a href="{{ '/archives' | prepend: site.baseurl }}">Archives</a></li>
                 <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-            </ul>		
+            </ul>
         </div>
-    </div>	
+	    <div class=".navbar-search">
+        <span class=".icon-search"><a><i class="fa fa-search" aria-hidden="true"></i></a></span>
+      </div>
+    </div>
 </header>
