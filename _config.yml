@@ -1,8 +1,8 @@
 name: 
 author: 
-url: 
-baseurl: 
-resume_site: 
+url: https://cermatedu.github.io/Edu/
+baseurl: /Edu
+resume_site: https://cermatedu.github.io/Edu/
 description: 
 github_username: 
 github: 
